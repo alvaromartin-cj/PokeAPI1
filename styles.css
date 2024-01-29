@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cartasPokemon {
+    position: relative;
+    width: 180px;
+    height: 250px;
+    border-radius: 35px;
+    border: 3px solid rgb(141, 0, 0);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #3f3c3c, -20px -20px 60px #ffffff;
+
+    
+  }
+  
+  .cartasPokemon:hover {
+    background-color: #ddd;
+  }
+  
+  .mostrarDetalles {
+    display: block !important;
+  }
+  
